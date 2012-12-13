@@ -34,7 +34,7 @@ Only the JSON (application/json) content type is supported.
 
 API requests should include this for the 'Accept' HTTP header.
 
-```
+```shell
 curl -H "Accept: application/json" -u username:password \ https://hub.amee.com/1.0/companies/123456789/score
 ```
 
@@ -62,7 +62,7 @@ Sample Requests
 
 Making the following request for a company's score:
 
-```
+```shell
 curl -H "Accept: application/json" -u username:password \ 
 http://hub-local.amee.com/1/score/UK123456?type=cro
 ```
@@ -73,10 +73,10 @@ Will return the following json:
 {
  "status" : "OK",
  "score" : {
-   "amee_industry_score" : 0,
+   "amee_industry_score" : 50,
    "amee_profiles_url" : "https://beta.amee.com/companies/123456789",
    "amee_id" : "123456789",
-   "amee_national_score" : 0
+   "amee_national_score" : 30
  },
  "version" : "1.0.0"
 }
