@@ -31,11 +31,18 @@ For example, the following curl command makes an authenticated request to the Sc
 curl -H "Accept: application/json" -u username:password \ https://hub.amee.com/1.0/companies/123456789/score
 ```
 
+APIs under development
+----------------------
+
+Companies - fetching full information about companies, and sending updates to the data
+Search - exposing the search visible on http://beta.amee.com in machine readable form
+
+
 
 Help us make it better
 ----------------------
 
-Please tell us how we can make the APIs better. If you have a specific feature request or if you found a bug, or the docs aren't clear, please file an issue](https://github.com/AMEE/score-api/issues). Also, feel free to fork these docs and send a pull request with improvements!
+Please tell us how we can make the APIs better. If you have a specific feature request or if you found a bug, or the docs aren't clear, please [file an issue](https://github.com/AMEE/score-api/issues). Also, feel free to fork these docs and send a pull request with improvements!
 
 To talk with us and other developers about the API, subscribe to the [amee developer mailing list](http://groups.google.com/group/amee-developer).
 
