@@ -10,13 +10,13 @@ Where to start
 
 1. Drop an email titled "API credentials request" to chris.adams@amee.com
 2. Once you have credentials, see how to make a sample request using your credentials, and see a sample response.
-3. Look over the detailed [API docs](sections/resources.md) to see how to make the requests specific to you app.
+3. Look over the detailed [API docs](https://github.com/AMEE/score-api/sections/resources.md) to see how to make the requests specific to you app.
 5. Join the [API mailing list](http://groups.google.com/group/amee-developer) to talk to others using the APIs and give us feedback.
 
 API Documentation
 -----------------
 
-[Score](sections/resources.md)
+[Score](https://github.com/AMEE/score-api/sections/resources.md)
 
 
 Authentication and Security
@@ -35,7 +35,7 @@ curl -H "Accept: application/json" -u username:password \ https://hub.amee.com/1
 Help us make it better
 ----------------------
 
-Please tell us how we can make the APIs better. If you have a specific feature request or if you found a bug, please [open a support ticket](http://help.37signals.com/tickets/new). Also, feel free to fork these docs and send a pull request with improvements!
+Please tell us how we can make the APIs better. If you have a specific feature request or if you found a bug, or the docs aren't clear, please file an issue](https://github.com/AMEE/score-api/issues). Also, feel free to fork these docs and send a pull request with improvements!
 
-To talk with us and other developers about the API, subscribe to the [37signals-api mailing list](http://groups.google.com/group/37signals-api).
+To talk with us and other developers about the API, subscribe to the [amee developer mailing list](http://groups.google.com/group/amee-developer).
 

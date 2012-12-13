@@ -9,7 +9,7 @@ API endpoints are hosted under `/{version}/{rest-of-path}`, so requests for vers
 curl -H "Accept: application/json" -u username:password \ https://hub.amee.com/1.0/companies/123456789/score
 ```
 
-Further, detailed documentation of the [API versioning is available](versioning.md)
+Further, detailed documentation of the [API versioning is available](https://github.com/AMEE/score-api/sections/versioning.md)
 
 ### Query Parameters
 
