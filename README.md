@@ -10,13 +10,13 @@ Where to start
 
 1. Drop an email titled "API credentials request" to chris.adams@amee.com
 2. Once you have credentials, see how to make a sample request using your credentials, and see a sample response.
-3. Look over the detailed [API docs](https://github.com/AMEE/score-api/sections/resources.md) to see how to make the requests specific to you app.
+3. Look over the detailed [API docs](https://github.com/AMEE/score-api/blob/master/sections/resources.md) to see how to make the requests specific to you app.
 5. Join the [API mailing list](http://groups.google.com/group/amee-developer) to talk to others using the APIs and give us feedback.
 
 API Documentation
 -----------------
 
-[Score](https://github.com/AMEE/score-api/sections/resources.md)
+[Score](https://github.com/AMEE/score-api/blob/master/sections/resources.md)
 
 
 Authentication and Security
