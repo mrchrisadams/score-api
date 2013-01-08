@@ -82,3 +82,64 @@ Sample Response
   "version": "1.0.0"
 }
 ```
+
+
+Put User
+---------
+
+* `PUT /users/{username}` - Update a user's details
+
+### Form parameters
+
+* `password` - the password
+* `email` - the email address
+* `enabled` - is the user enabled (true/false)
+* `roles` - CSV list of roles assigned to the user, e.g. roles=ROLE_USER,ROLE_ADMIN
+
+Sample Request
+--------------
+
+```shell
+curl -H "Accept: application/json" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-u username:password \
+-X PUT \
+-d "password=NEW_PASSWORD" \
+http://hub.amee.com/1/users/sample-user
+```
+
+Sample Response
+---------------
+
+```json
+{
+  "status": "OK",
+  "version": "1.0.0"
+}
+```
+
+
+Delete User
+-----------
+
+* `DELETE /users/username` - Delete a given user. (admin only)
+
+Sample Request
+--------------
+
+```shell
+curl -H "Accept: application/json" \
+-u username:password \
+-X DELETE \
+http://hub.amee.com/1/users/sample-user1
+```
+
+Sample Response
+---------------
+
+```json
+{
+  "status": "OK",
+  "version": "1.0.0"
+}
+```
