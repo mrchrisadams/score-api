@@ -55,7 +55,11 @@ API Documentation
 There are currently two resources available on the public Score API:
 
 * [Score](https://github.com/AMEE/score-api/blob/master/sections/score.md) - for returning the environmental score for a given company
-* [Users](https://github.com/AMEE/score-api/blob/master/sections/resources.md) - for managing your own user account
+* [Users](https://github.com/AMEE/score-api/blob/master/sections/user.md) - for managing your own user account
+
+##### Shared docs for all resources
+
+There is more detailed documentation that applies to making all requests to resources exposed by amee. Find it here in the shared [resources](https://github.com/AMEE/score-api/blob/master/sections/user.md) documentation.
 
 #### APIs under development
 
