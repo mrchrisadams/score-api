@@ -131,12 +131,16 @@ API requests should include this for the `Accept` HTTP header.
 
 # Response Content Types
 
-Two incoming request representation content types are supported:
+API requests POSTing data should include a `Content-Type` HTTP header declaring the content type, as `application/x-www-form-urlencoded`:
 
-Content type of `application/x-www-form-urlencoded` with standard POST form parameters.
-Content type of `application/json` with JSON in POST body.
-
-API requests should include one of these for the `Content-Type` HTTP header along with the appropriate request body.
+```shell
+curl -H "Accept: application/json" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-u username:password \
+-X POST \
+-d "data-payload=goeshere" \
+https://hub-dev.amee.com/1/users
+```
 
 # Usage Restrictions
 
