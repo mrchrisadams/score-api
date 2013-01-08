@@ -36,8 +36,9 @@ Will return the following json:
 ```json
 {
  "status" : "OK",
- "users" : {
-   "tbc": "Some content here"
+ "user" : {
+   "username": "sample-user",
+   "email": "sample-user@amee.com"
  },
  "version" : "1.0.0"
 }
