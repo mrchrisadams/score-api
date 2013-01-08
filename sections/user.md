@@ -3,6 +3,11 @@ User Resource
 
 At present, all user operations except GETing their own user are restricted for internal use.
 
+* [GET](https://github.com/AMEE/score-api/blob/internal-api/sections/user.md#get-users)
+* [POST](https://github.com/AMEE/score-api/blob/internal-api/sections/user.md#post-user)
+* [PUT](https://github.com/AMEE/score-api/blob/internal-api/sections/user.md#put-user)
+* [DELETE](https://github.com/AMEE/score-api/blob/internal-api/sections/user.md#delete-user)
+
 
 Get users
 ---------
