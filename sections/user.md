@@ -65,7 +65,7 @@ curl -H "Accept: application/json" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -u username:password \
 -X POST \
--d "username=sample-user1&password=topSekrit&email=sample-user@domain.com&enabled=true&roles=ROLE_USER"
+-d "username=sample-user1&password=topSekrit&email=sample-user@domain.com&enabled=true&roles=ROLE_USER" \
 http://hub.amee.com/1/users
 ```
 
