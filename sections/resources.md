@@ -70,13 +70,13 @@ Some representations may return information to help clients with pagination, suc
 
 # Status Codes
 
-Resource creation: 201
-Resource fetch: 200
-Resource update: 200
-Resource delete: 200
-Resource not found: 404
-Request error (eg, validation): 400
-Server error: 500
+* Resource creation: 201
+* Resource fetch: 200
+* Resource update: 200
+* Resource delete: 200
+* Resource not found: 404
+* Request error (eg, validation): 400
+* Server error: 500
 
 # Validation
 

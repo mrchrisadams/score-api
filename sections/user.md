@@ -16,6 +16,8 @@ Adding the following matrix parameters will change how a given user is represent
 * `audit` - show the created and modified dates
 * `roles` - show the roles assigned to the user
 
+[Further information about using matrix parameters is available](https://github.com/AMEE/score-api/blob/master/sections/resources.md#query--matrix-parameters)
+
 Sample Request
 --------------
 
