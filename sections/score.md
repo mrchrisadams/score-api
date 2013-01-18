@@ -1,7 +1,7 @@
 Score Resource
 ==============
 
-The score resource relates to the amee environmental score for a given company, using a particular identifier, like a company registration number (`CRO`), DUNS number (`DUNS`)or amee id (`CRO`)
+The score resource relates to the amee environmental score for a given company, using a particular identifier, like a company registration number (`CRO`), DUNS number (`DUNS`)or amee id (`AMEE`)
 
 Get scores
 ----------
@@ -10,7 +10,7 @@ Get scores
 
 ### Query Parameters
 
-`type` - the type of the company ID specified, (DUNS|CRO|AMEE).  If no type is specified, defaults to AMEE.
+`type` - the type of the company ID specified, (CRO|AMEE).  If no type is specified, defaults to AMEE.
 
 * `CRO`  - company registration number
 * `AMEE` - amee id
@@ -39,7 +39,6 @@ Will return the following json:
    "amee_industry_score" : 50,
    "amee_profiles_url" : "https://beta.amee.com/companies/123456789",
    "amee_id" : "123456789",
-   "amee_national_score" : 30
  },
  "version" : "1.0.0"
 }
