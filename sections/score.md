@@ -13,7 +13,6 @@ Get scores
 `type` - the type of the company ID specified, (DUNS|CRO|AMEE).  If no type is specified, defaults to AMEE.
 
 * `CRO`  - company registration number
-* `DUNS` - DUNS number
 * `AMEE` - amee id
 
 
