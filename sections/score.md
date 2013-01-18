@@ -1,7 +1,7 @@
 Score Resource
 ==============
 
-The score resource relates to the amee environmental score for a given company, using a particular identifier, like a company registration number (`CRO`), DUNS number (`DUNS`)or amee id (`AMEE`)
+The score resource relates to the amee environmental score for a given company, using a particular identifier, like a company registration number (`CRO`) or amee id (`AMEE`)
 
 Get scores
 ----------
