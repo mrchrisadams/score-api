@@ -10,7 +10,7 @@ Where to start
 
 1. The first thing you'll need are some API credentials (a user name and password) to sign requests with. If you drop an an email titled "API credentials request" to [chris.adams@amee.com](mailto:mail@chrisadams.me.uk). You should usually receive them the same day.
 2. Once you have credentials, see how to make a sample request using your credentials, and see a sample response.
-3. Look over the detailed [API docs](https://github.com/AMEE/score-api/blob/master/sections/resources.md) to see how to make the requests specific to you app.
+3. Look over the detailed [API docs](https://github.com/AMEE/score-api/blob/master/sections/resources.md) to see how to make the requests specific to your app.
 5. Join the [API mailing list](http://groups.google.com/group/amee-developer) to talk to others using the APIs and give us feedback.
 
 Making a sample response
