@@ -6,7 +6,7 @@ The score resource relates to the amee environmental score for a given company, 
 Get scores
 ----------
 
-* `GET /score/{companyId}` - Get scores for a single company.  
+* `GET /company/{companyId}` - Get scores for a single company.  
 
 ### Query Parameters
 
@@ -23,7 +23,7 @@ Making the following request for a company's score:
 
 ```shell
 curl -H "Accept: application/json" -u username:password \ 
-http://hub-local.amee.com/1/score/UK123456?type=cro
+http://hub-dev.amee.com/1/companies/UK123456?type=cro
 ```
 
 Sample Response
@@ -36,9 +36,10 @@ Will return the following json:
 {
  "status" : "OK",
  "score" : {
-   "amee_industry_score" : 50,
-   "amee_profiles_url" : "https://beta.amee.com/companies/123456789",
+   "amee_score" : 50,
+   "amee_profiles_url" : "https://www.amee.com/companies/123456789",
    "amee_id" : "123456789",
+   "cro"     : "123456789"
  },
  "version" : "1.0.0"
 }
