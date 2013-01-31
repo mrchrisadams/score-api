@@ -52,7 +52,7 @@ Some API operations are restricted to users with ROLE_ADMIN, eg, listing all use
 Some resources accept query and/or matrix parameters, as defined by the HTTP specification. Query parameters are used for traditional results filtering and querying, such as:
 
 ```shell
-/companies/123456789?type=CRO 
+/companies/UK123456?type=CRO 
 ```
 
 Matrix parameters are used to modify the representation itself, to lower or increase the level of detail or to add aspects missing from the default representation, for example `/users;roles`.
