@@ -25,7 +25,7 @@ Making the following request for a user:
 
 ```shell
 curl -H "Accept: application/json" -u username:password \ 
-http://hub.amee.com/1/users/sample-user
+https://score.amee.com/1/users/sample-user
 ```
 
 Sample Response

@@ -8,7 +8,7 @@ Everything you need to start is listed right here, including sample code and det
 Where to start
 --------------
 
-1. The first thing you'll need are some API credentials (a user name and password) to sign requests with. If you drop an an email titled "API credentials request" to [chris.adams@amee.com](mailto:mail@chrisadams.me.uk). You should usually receive them the same day.
+1. The first thing you'll need are some API credentials (a user name and password) to sign requests with. If you drop an an email titled "API credentials request" to [developers@amee.com](mailto:developers@amee.com). You should usually receive them the same day.
 2. Once you have credentials, see how to make a sample request using your credentials, and see a sample response.
 3. Look over the detailed [API docs](https://github.com/AMEE/score-api/blob/master/sections/resources.md) to see how to make the requests specific to you app.
 5. Join the [API mailing list](http://groups.google.com/group/amee-developer) to talk to others using the APIs and give us feedback.
@@ -20,7 +20,7 @@ Once you have credentials, you can make a sample request to the amee Score resou
 
 ```shell
 curl -H "Accept: application/json" -u username:password \ 
-  https://hub.amee.com/1.0/companies/123456789/score
+  https://score.amee.com/1.0/companies/123456789
 ```
 
 You should receive a json response looking something like this:
@@ -29,9 +29,11 @@ You should receive a json response looking something like this:
 {
  "status" : "OK",
  "score" : {
+   "amee_id" : "123456789",
+   "cro" : "UK123456",
+   "name" : "Example Company Ltd",
    "amee_industry_score" : 50,
-   "amee_profiles_url" : "https://www.amee.com/companies/123456789",
-   "amee_id" : "123456789"
+   "amee_profiles_url" : "https://beta.amee.com/companies/123456789-example-company-ltd"
  },
  "version" : "1.0.0"
 }
@@ -54,7 +56,7 @@ API Documentation
 
 There are currently two resources available on the public Score API:
 
-* [Score](https://github.com/AMEE/score-api/blob/master/sections/score.md) - for returning the environmental score for a given company
+* [Company](https://github.com/AMEE/score-api/blob/master/sections/company.md) - for returning the information for a given company
 * [Users](https://github.com/AMEE/score-api/blob/master/sections/user.md) - for managing your own user account
 
 ##### Shared docs for all resources

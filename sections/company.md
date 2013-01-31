@@ -1,12 +1,12 @@
-Score Resource
-==============
+Company Resource
+================
 
-The score resource relates to the amee environmental score for a given company, using a particular identifier, like a company registration number (`CRO`) or amee id (`AMEE`)
+The company resource relates to the amee environmental data for a given company, using a particular identifier, like a company registration number (`CRO`) or amee id (`AMEE`)
 
-Get scores
-----------
+Get company
+-----------
 
-* `GET /company/{companyId}` - Get scores for a single company.  
+* `GET /company/{companyId}` - Get data for a single company.  
 
 ### Query Parameters
 
@@ -23,7 +23,7 @@ Making the following request for a company's score:
 
 ```shell
 curl -H "Accept: application/json" -u username:password \ 
-http://hub-dev.amee.com/1/companies/UK123456?type=cro
+https://score.amee.com/1/companies/UK123456?type=cro
 ```
 
 Sample Response
@@ -36,10 +36,10 @@ Will return the following json:
 {
  "status" : "OK",
  "score" : {
-   "amee_score" : 50,
-   "amee_profiles_url" : "https://www.amee.com/companies/123456789",
    "amee_id" : "123456789",
-   "cro"     : "123456789"
+   "cro" : "UK123456"
+   "amee_industry_score" : 50,
+   "amee_profiles_url" : "https://beta.amee.com/companies/123456789-example-company-ltd"
  },
  "version" : "1.0.0"
 }
