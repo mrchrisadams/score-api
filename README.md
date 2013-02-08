@@ -65,9 +65,9 @@ There is more detailed documentation that applies to making all requests to reso
 
 #### APIs under development
 
-Over the coming weeks and months, we'll be exposing further resources to use:
+Over the coming weeks and months, we'll be exposing further resources to use, and fleshing out existing ones with new methods.  
 
-* Companies - fetching full information about companies, and sending updates to the data
+* Company - fetching full information about companies, and sending updates to the data
 * Search - exposing the search visible on http://beta.amee.com in machine readable form
 
 
